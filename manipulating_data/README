@@ -1,0 +1,6 @@
+This file was intended to work with S&P 500 stock CSV data from kaggle.com
+
+all_stocks_5year.csv is to large to be saved on github but is nessessary to run the following python code
+all_stocks_5yr.csv can be downloaded from https://www.kaggle.com/camnugent/sandp500
+
+01_manipulating_data.py was created by FD
