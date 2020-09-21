@@ -1,0 +1,10 @@
+The purpose of this showcase was to take the file billboard.csv and use Python's Pandas library pivot the weeks column and produce a numerical ID for each song. 
+
+The unedited file started off as billboard.csv and was pivoted and tidied as billboard_clean.csv
+
+How I achieved this is shown in the 02_tidying_data.py file and will be summarised below:
+- File started as "billboard.csv"
+- Pivoted the file and saved as the following "billboard_melt.csv"
+- Selected tge column values "year", "artist", "track" and "time", removed all duplicates and saved the file without index values as saved the file as "billboard_songs_without_index.csv", thus creating a table without repeated songs
+- Created an ID for each individual song and saved the file without an index as "billboard_songs_with_id.csv"
+- Merged "billboard_melt.csv" and "billboard_songs_with_id.csv" so each song is sorted in its unique ID and a showing the pivoted week value
